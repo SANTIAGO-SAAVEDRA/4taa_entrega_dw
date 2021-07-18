@@ -1,0 +1,149 @@
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css2?family=Limelight&display=swap');
+
+* {
+    margin: $margenGeneral;
+    padding: $paddingGeneral;
+    box-sizing: $boxGen;
+}
+
+body{
+    font-family: $fuente;
+    background-color: $fondoFuente;
+}
+
+
+.header{
+    background-color: $rojoGeneral;
+    margin: $margenHeader;
+    width: $cienPorCien;
+    height: $altoHeader;
+    background-color: $rojoGeneral;
+    display: $dispFlex;
+    justify-content: $justificar;
+    align-items: $centrarItems;
+}
+
+.headerLogo{
+    width: $anchoLogo;
+    margin-left: $margenIzqLogo;
+}
+
+.headerLogo img{
+    width: $cienPorCien;
+}
+
+.headerMenu{
+    width: $anchoMenu;
+    margin-right: $margenDerecho;
+}
+
+.headerMenu ul{
+    list-style: $borrarDecoration;
+    display: $dispFlex;
+    justify-content: $justificar;
+    align-items: $centrarItems;
+    height: $cienPorCien;
+}
+
+.headerMenu ul li{
+    display: $inline;
+}
+
+a{
+    text-decoration: $borrarDecoration;
+    color: $rojoGeneral;
+}
+
+.tituloPagina{
+    font-family: $fuenteCards;
+    color:$rojoGeneral;
+}
+
+header nav ul li a{
+    color:$blanco;
+    position: $sticky;
+}
+
+ul{
+    color:$rojoGeneral;
+    text-align: $aLaDerecha;
+    object-position: $aLaDerecha;
+}
+
+li{
+    text-decoration-line: $borrarDecoration;
+    display: $inline;
+}
+
+/*////////////////MAIN\\\\\\\\\\\\\\\*/
+.main {
+    display: $dispFlex;
+    height: $cienPorCien;
+    margin: $marginMain;
+}
+
+.mainSection{ 
+    width: $anchoSection; 
+}
+
+.mainAside{ 
+    width: $anchoAside;
+}
+
+.mainAside img{ 
+    width: $cienPorCien; 
+}
+
+//GRILLA
+#grilla{ 
+    display: $grid;
+    grid-template-columns: $anchoColumnasGrid;
+    grid-template-rows: $rowsGrid;
+    grid-template-areas: "imagen1 imagen2"
+                         "imagen3 imagen4";
+    row-gap: $gapGrid;
+    column-gap: $gapGrid; }
+
+    #btnDiscografia{
+        grid-area: $imagen1;
+    }
+
+img{ 
+    max-width: $cienPorCien;
+    width: $cienPorCien;
+    height: $cienPorCien; 
+}
+        
+    // #btnCarrera{ 
+    //     grid-area: $imagen2; 
+    // }
+    
+    // #btnContacto{ 
+    //     grid-area: $imagen3; 
+    // }
+    
+    // #btnShop{ 
+    //     grid-area: $imagen4; 
+    // }
+
+footer p a{ 
+    color:$colorFooter;
+    text-align: $centrarItems; 
+}
+
+#desarrollo{ 
+    color: $desarrollo;
+    text-align: $centrarItems; 
+}
+
+.card-title{ 
+    font-family: $fuenteCards; 
+}
+
+table, th, td{ 
+    border: $bordeTabla;
+    border-color: $bordeTabla;
+    width: $anchoTabla;
+    background-color: $fondoTabla; 
+}

@@ -1,0 +1,71 @@
+
+$margenGeneral: 800;
+$paddingGeneral: 0;
+$boxGen: border-box;
+
+$fuente: Arial, Helvetica, sans-serif;
+$fondoFuente: rgb(228, 216, 216);
+
+$margenHeader: 0;
+$cienPorCien: 100%;
+$altoHeader: 100px;
+$rojoGeneral: rgb(255, 0, 0);
+$dispFlex: flex;
+$justificar: space-between;
+$centrarItems: center;
+
+$anchoLogo: 200px;
+$margenIzqLogo: 5px;
+
+$anchoMenu: 30%;
+$margenDerecho: 25px;
+
+    $borrarDecoration: none;
+    $inline: inline-block;
+
+// .tituloPagina
+    $fuenteCards: 'Limelight', cursive;
+    // color:$rojoGeneral;
+
+// header nav ul li a
+    $blanco: rgb(255, 255, 255);
+    $sticky: sticky;
+    $aLaDerecha: right;
+
+/*////////MAIN\\\\\\\\*/
+
+// .main
+$marginMain: 500;
+
+// .mainSection{ 
+    $anchoSection: 62%; 
+
+// #grilla{ 
+    $grid: grid;
+    $anchoColumnasGrid: 50% 50%;
+    $rowsGrid: 500px 500px;
+
+    $gapGrid: 20px;
+
+// // #btnDiscografia
+//     $imagen1: imagen1;
+    
+// // #btnCarrera
+//     $imagen2: imagen2; 
+
+// // #btnContacto{
+//     $imagen3: imagen3; 
+
+// // #btnShop
+//     $imagen4: imagen4; 
+
+// footer p a{ 
+    $colorFooter:rgb(0, 139, 7);
+
+// #desarrollo{ 
+    $desarrollo: grey;
+
+// table, th, td{ 
+    $bordeTabla: 1px solid black;
+    $anchoTabla: 70%;
+    $fondoTabla: rgb(144, 144, 144);
